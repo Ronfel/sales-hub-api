@@ -1,0 +1,5235 @@
+{
+  "sellers": [
+    {
+      "id": "seller-1",
+      "empresa": "Multy Demo",
+      "login": "vendedor1",
+      "senha": "1234",
+      "nome": "Rodrigo Neves",
+      "email": "tera.holy@gmail.com"
+    },
+    {
+      "id": "v002",
+      "empresa": "Multy Demo",
+      "login": "vendedor2",
+      "senha": "1234",
+      "nome": "Ana Souza",
+      "email": "ana.souza@multydemo.com.br"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c001",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Padaria Aurora",
+      "document": "11.428.108/0001-71",
+      "inscricaoEstadual": "694654894",
+      "email": "padariaaurora@empresa.com.br",
+      "phone": "(11) 3838-9150",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "address": "Rua do Comércio, 7530",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-01",
+      "synced": true
+    },
+    {
+      "id": "c002",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Mercado Estrela",
+      "document": "47.601.611/0001-48",
+      "inscricaoEstadual": "930411412",
+      "email": "mercadoestrela@empresa.com.br",
+      "phone": "(11) 3841-2261",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Av. Paulista, 947",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-25",
+      "synced": true
+    },
+    {
+      "id": "c003",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Mercearia Recanto",
+      "document": "92.841.279/0001-40",
+      "inscricaoEstadual": "420145251",
+      "email": "merceariarecanto@empresa.com.br",
+      "phone": "(11) 3790-7872",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Rua das Flores, 263",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-23",
+      "synced": true
+    },
+    {
+      "id": "c004",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Lanchonete União",
+      "document": "65.273.356/0001-92",
+      "inscricaoEstadual": "337988412",
+      "email": "lanchoneteuniao@empresa.com.br",
+      "phone": "(11) 3154-5328",
+      "city": "Guarulhos",
+      "state": "SP",
+      "address": "Travessa das Palmeiras, 708",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-25",
+      "synced": true
+    },
+    {
+      "id": "c005",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Restaurante Porto Seguro",
+      "document": "44.103.845/0001-22",
+      "inscricaoEstadual": "728565635",
+      "email": "restauranteportoseguro@empresa.com.br",
+      "phone": "(11) 3836-4422",
+      "city": "Carapicuíba",
+      "state": "SP",
+      "address": "Rua São José, 814",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-30",
+      "synced": true
+    },
+    {
+      "id": "c006",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Empório Bom Preço",
+      "document": "55.761.464/0001-78",
+      "inscricaoEstadual": "567463114",
+      "email": "emporiobompreco@empresa.com.br",
+      "phone": "(11) 3835-6365",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 854",
+      "priceTableId": "t1",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-27",
+      "synced": true
+    },
+    {
+      "id": "c007",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Açougue Central",
+      "document": "89.274.245/0001-72",
+      "inscricaoEstadual": "588420006",
+      "email": "acouguecentral@empresa.com.br",
+      "phone": "(11) 3872-9728",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Rua Projetada, 6079",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-29",
+      "synced": true
+    },
+    {
+      "id": "c008",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Hortifruti São José",
+      "document": "96.221.692/0001-37",
+      "inscricaoEstadual": "586963212",
+      "email": "hortifrutisaojose@empresa.com.br",
+      "phone": "(11) 3531-1973",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Rua Projetada, 5868",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-25",
+      "synced": true
+    },
+    {
+      "id": "c009",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Pet Shop Vitória",
+      "document": "98.646.691/0001-41",
+      "inscricaoEstadual": "183374286",
+      "email": "petshopvitoria@empresa.com.br",
+      "phone": "(11) 3372-7689",
+      "city": "Diadema",
+      "state": "SP",
+      "address": "Av. Brasil, 664",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-30",
+      "synced": true
+    },
+    {
+      "id": "c010",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Papelaria Fartura",
+      "document": "84.199.725/0001-68",
+      "inscricaoEstadual": "497166920",
+      "email": "papelariafartura@empresa.com.br",
+      "phone": "(11) 3391-8429",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "address": "Rua do Comércio, 8978",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-26",
+      "synced": true
+    },
+    {
+      "id": "c011",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Farmácia Progresso",
+      "document": "98.511.326/0001-85",
+      "inscricaoEstadual": "868083455",
+      "email": "farmaciaprogresso@empresa.com.br",
+      "phone": "(11) 3308-9540",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Travessa das Palmeiras, 1745",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-05",
+      "synced": true
+    },
+    {
+      "id": "c012",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Bar Vitória",
+      "document": "45.482.652/0001-76",
+      "inscricaoEstadual": "919413687",
+      "email": "barvitoria@empresa.com.br",
+      "phone": "(11) 3997-8641",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Av. Paulista, 5582",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-25",
+      "synced": true
+    },
+    {
+      "id": "c013",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Cafeteria Monte Alto",
+      "document": "30.990.940/0001-14",
+      "inscricaoEstadual": "984371272",
+      "email": "cafeteriamontealto@empresa.com.br",
+      "phone": "(11) 3492-1726",
+      "city": "Osasco",
+      "state": "SP",
+      "address": "Rua do Comércio, 8563",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-29",
+      "synced": true
+    },
+    {
+      "id": "c014",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Sorveteria Estrela",
+      "document": "71.252.994/0001-71",
+      "inscricaoEstadual": "183056530",
+      "email": "sorveteriaestrela@empresa.com.br",
+      "phone": "(11) 3375-3345",
+      "city": "Diadema",
+      "state": "SP",
+      "address": "Rua Projetada, 6619",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-26",
+      "synced": true
+    },
+    {
+      "id": "c015",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Pizzaria Esperança",
+      "document": "99.727.824/0001-72",
+      "inscricaoEstadual": "255929201",
+      "email": "pizzariaesperanca@empresa.com.br",
+      "phone": "(11) 3812-7077",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Av. Brasil, 2541",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-03",
+      "synced": true
+    },
+    {
+      "id": "c016",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Quitanda Central",
+      "document": "74.168.172/0001-77",
+      "inscricaoEstadual": "565834232",
+      "email": "quitandacentral@empresa.com.br",
+      "phone": "(11) 3380-2710",
+      "city": "Itaquaquecetuba",
+      "state": "SP",
+      "address": "Av. Central, 1194",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-29",
+      "synced": true
+    },
+    {
+      "id": "c017",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Doceria Ponto Certo",
+      "document": "77.359.531/0001-16",
+      "inscricaoEstadual": "617860234",
+      "email": "doceriapontocerto@empresa.com.br",
+      "phone": "(11) 3410-4139",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Av. Paulista, 3157",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-20",
+      "synced": true
+    },
+    {
+      "id": "c018",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Churrascaria Tradição",
+      "document": "67.793.348/0001-51",
+      "inscricaoEstadual": "991269760",
+      "email": "churrascariatradicao@empresa.com.br",
+      "phone": "(11) 3235-8843",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Av. Paulista, 7289",
+      "priceTableId": "t3",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-06",
+      "synced": true
+    },
+    {
+      "id": "c019",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Sacolão São José",
+      "document": "28.673.688/0001-55",
+      "inscricaoEstadual": "333129011",
+      "email": "sacolaosaojose@empresa.com.br",
+      "phone": "(11) 3323-9180",
+      "city": "Guarulhos",
+      "state": "SP",
+      "address": "Av. Paulista, 5360",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-29",
+      "synced": true
+    },
+    {
+      "id": "c020",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Conveniência Ipiranga",
+      "document": "93.576.340/0001-56",
+      "inscricaoEstadual": "477784498",
+      "email": "convenienciaipiranga@empresa.com.br",
+      "phone": "(11) 3339-1721",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Rua São José, 5214",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-30",
+      "synced": true
+    },
+    {
+      "id": "c021",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Padaria São José",
+      "document": "16.853.113/0001-37",
+      "inscricaoEstadual": "544621796",
+      "email": "padariasaojose@empresa.com.br",
+      "phone": "(11) 3674-8052",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Rua das Flores, 3714",
+      "priceTableId": "t2",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-11",
+      "synced": true
+    },
+    {
+      "id": "c022",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Mercado Vila Nova",
+      "document": "93.722.522/0001-44",
+      "inscricaoEstadual": "833129410",
+      "email": "mercadovilanova@empresa.com.br",
+      "phone": "(11) 3279-2517",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Rua Projetada, 5859",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-10",
+      "synced": true
+    },
+    {
+      "id": "c023",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Mercearia Ponto Certo",
+      "document": "10.281.435/0001-50",
+      "inscricaoEstadual": "511595310",
+      "email": "merceariapontocerto@empresa.com.br",
+      "phone": "(11) 3154-8985",
+      "city": "Osasco",
+      "state": "SP",
+      "address": "Av. Independência, 4262",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-21",
+      "synced": true
+    },
+    {
+      "id": "c024",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Lanchonete Tradição",
+      "document": "27.641.645/0001-51",
+      "inscricaoEstadual": "715998083",
+      "email": "lanchonetetradicao@empresa.com.br",
+      "phone": "(11) 3187-3791",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Av. Brasil, 8522",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-28",
+      "synced": true
+    },
+    {
+      "id": "c025",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Restaurante Vila Nova",
+      "document": "88.504.420/0001-51",
+      "inscricaoEstadual": "612955007",
+      "email": "restaurantevilanova@empresa.com.br",
+      "phone": "(11) 3624-2679",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Av. Paulista, 5126",
+      "priceTableId": "t2",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-20",
+      "synced": true
+    },
+    {
+      "id": "c026",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Empório Sabor & Cia",
+      "document": "86.142.911/0001-34",
+      "inscricaoEstadual": "741120654",
+      "email": "emporiosaborcia@empresa.com.br",
+      "phone": "(11) 3773-5164",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Rua do Comércio, 8790",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-29",
+      "synced": true
+    },
+    {
+      "id": "c027",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Açougue Ipiranga",
+      "document": "64.983.481/0001-78",
+      "inscricaoEstadual": "175031291",
+      "email": "acougueipiranga@empresa.com.br",
+      "phone": "(11) 3105-3941",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "address": "Rua São José, 31",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-04",
+      "synced": true
+    },
+    {
+      "id": "c028",
+      "sellerId": "seller-1",
+      "personType": "Jurídica",
+      "name": "Hortifruti Primavera",
+      "document": "30.570.665/0001-81",
+      "inscricaoEstadual": "132090194",
+      "email": "hortifrutiprimavera@empresa.com.br",
+      "phone": "(11) 3841-8396",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "address": "Av. Central, 7820",
+      "priceTableId": "t3",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-27",
+      "synced": true
+    },
+    {
+      "id": "c029",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Pet Shop Boa Vista",
+      "document": "28.707.785/0001-52",
+      "inscricaoEstadual": "240371500",
+      "email": "petshopboavista@empresa.com.br",
+      "phone": "(11) 3297-3478",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Av. Central, 8438",
+      "priceTableId": "t3",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-23",
+      "synced": true
+    },
+    {
+      "id": "c030",
+      "sellerId": "v002",
+      "personType": "Jurídica",
+      "name": "Papelaria Recanto",
+      "document": "79.369.113/0001-80",
+      "inscricaoEstadual": "713152120",
+      "email": "papelariarecanto@empresa.com.br",
+      "phone": "(11) 3322-8109",
+      "city": "São Bernardo do Campo",
+      "state": "SP",
+      "address": "Rua do Comércio, 5817",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-22",
+      "synced": true
+    },
+    {
+      "id": "c031",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Rafael Carvalho",
+      "document": "105.556.781-58",
+      "inscricaoEstadual": "",
+      "email": "rafaelcarvalho@email.com",
+      "phone": "(11) 93882-2342",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 1912",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-18",
+      "synced": true
+    },
+    {
+      "id": "c032",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "João Nogueira",
+      "document": "561.317.708-22",
+      "inscricaoEstadual": "",
+      "email": "joaonogueira@email.com",
+      "phone": "(11) 95135-6621",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Av. Central, 5976",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-12",
+      "synced": true
+    },
+    {
+      "id": "c033",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Larissa Martins",
+      "document": "493.689.872-21",
+      "inscricaoEstadual": "",
+      "email": "larissamartins@email.com",
+      "phone": "(11) 97353-1925",
+      "city": "Diadema",
+      "state": "SP",
+      "address": "Rua do Comércio, 437",
+      "priceTableId": "t3",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-02",
+      "synced": true
+    },
+    {
+      "id": "c034",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "André Carvalho",
+      "document": "153.417.288-39",
+      "inscricaoEstadual": "",
+      "email": "andrecarvalho@email.com",
+      "phone": "(11) 94887-9211",
+      "city": "Guarulhos",
+      "state": "SP",
+      "address": "Av. Independência, 7582",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-27",
+      "synced": true
+    },
+    {
+      "id": "c035",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Ana Souza",
+      "document": "210.263.970-95",
+      "inscricaoEstadual": "",
+      "email": "anasouza@email.com",
+      "phone": "(11) 95901-2486",
+      "city": "Carapicuíba",
+      "state": "SP",
+      "address": "Av. Paulista, 7620",
+      "priceTableId": "t1",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-20",
+      "synced": true
+    },
+    {
+      "id": "c036",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Maria Moreira",
+      "document": "952.892.513-57",
+      "inscricaoEstadual": "",
+      "email": "mariamoreira@email.com",
+      "phone": "(11) 96446-9701",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Av. Central, 724",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-06",
+      "synced": true
+    },
+    {
+      "id": "c037",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Vanessa Martins",
+      "document": "133.424.720-17",
+      "inscricaoEstadual": "",
+      "email": "vanessamartins@email.com",
+      "phone": "(11) 94784-7325",
+      "city": "Carapicuíba",
+      "state": "SP",
+      "address": "Travessa das Palmeiras, 9199",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-22",
+      "synced": true
+    },
+    {
+      "id": "c038",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Ana Santos",
+      "document": "426.803.930-98",
+      "inscricaoEstadual": "",
+      "email": "anasantos@email.com",
+      "phone": "(11) 94537-9047",
+      "city": "Diadema",
+      "state": "SP",
+      "address": "Rua do Comércio, 2918",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-09",
+      "synced": true
+    },
+    {
+      "id": "c039",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Lucas Rodrigues",
+      "document": "383.625.932-99",
+      "inscricaoEstadual": "",
+      "email": "lucasrodrigues@email.com",
+      "phone": "(11) 97626-3972",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 3487",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-16",
+      "synced": true
+    },
+    {
+      "id": "c040",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Ricardo Gomes",
+      "document": "691.303.395-56",
+      "inscricaoEstadual": "",
+      "email": "ricardogomes@email.com",
+      "phone": "(11) 91819-3399",
+      "city": "Itaquaquecetuba",
+      "state": "SP",
+      "address": "Av. Paulista, 9864",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-17",
+      "synced": true
+    },
+    {
+      "id": "c041",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Beatriz Souza",
+      "document": "129.801.847-23",
+      "inscricaoEstadual": "",
+      "email": "beatrizsouza@email.com",
+      "phone": "(11) 91206-8156",
+      "city": "Barueri",
+      "state": "SP",
+      "address": "Av. Independência, 2150",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-12",
+      "synced": true
+    },
+    {
+      "id": "c042",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Beatriz Moreira",
+      "document": "260.528.681-18",
+      "inscricaoEstadual": "",
+      "email": "beatrizmoreira@email.com",
+      "phone": "(11) 98755-2447",
+      "city": "Carapicuíba",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 1272",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-09",
+      "synced": true
+    },
+    {
+      "id": "c043",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Vanessa Costa",
+      "document": "121.173.574-99",
+      "inscricaoEstadual": "",
+      "email": "vanessacosta@email.com",
+      "phone": "(11) 92794-3520",
+      "city": "Carapicuíba",
+      "state": "SP",
+      "address": "Av. Paulista, 5183",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-10",
+      "synced": true
+    },
+    {
+      "id": "c044",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Diego Cardoso",
+      "document": "559.563.807-93",
+      "inscricaoEstadual": "",
+      "email": "diegocardoso@email.com",
+      "phone": "(11) 94269-4796",
+      "city": "Itaquaquecetuba",
+      "state": "SP",
+      "address": "Rua do Comércio, 1553",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-27",
+      "synced": true
+    },
+    {
+      "id": "c045",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Patrícia Dias",
+      "document": "383.130.710-39",
+      "inscricaoEstadual": "",
+      "email": "patriciadias@email.com",
+      "phone": "(11) 99921-3962",
+      "city": "Itaquaquecetuba",
+      "state": "SP",
+      "address": "Travessa das Palmeiras, 1550",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-10",
+      "synced": true
+    },
+    {
+      "id": "c046",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Rafael Dias",
+      "document": "939.716.734-55",
+      "inscricaoEstadual": "",
+      "email": "rafaeldias@email.com",
+      "phone": "(11) 98364-1737",
+      "city": "Santo André",
+      "state": "SP",
+      "address": "Rua Projetada, 3327",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-20",
+      "synced": true
+    },
+    {
+      "id": "c047",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Diego Barbosa",
+      "document": "483.997.709-45",
+      "inscricaoEstadual": "",
+      "email": "diegobarbosa@email.com",
+      "phone": "(11) 91873-1469",
+      "city": "Guarulhos",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 127",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-04",
+      "synced": true
+    },
+    {
+      "id": "c048",
+      "sellerId": "seller-1",
+      "personType": "Física",
+      "name": "Thiago Cardoso",
+      "document": "712.747.571-40",
+      "inscricaoEstadual": "",
+      "email": "thiagocardoso@email.com",
+      "phone": "(11) 91204-4030",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Rua do Comércio, 5957",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-10",
+      "synced": true
+    },
+    {
+      "id": "c049",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Beatriz Barbosa",
+      "document": "336.750.685-68",
+      "inscricaoEstadual": "",
+      "email": "beatrizbarbosa@email.com",
+      "phone": "(11) 98208-1304",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Travessa das Palmeiras, 7147",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-11",
+      "synced": true
+    },
+    {
+      "id": "c050",
+      "sellerId": "v002",
+      "personType": "Física",
+      "name": "Priscila Rodrigues",
+      "document": "298.947.602-10",
+      "inscricaoEstadual": "",
+      "email": "priscilarodrigues@email.com",
+      "phone": "(11) 97322-4927",
+      "city": "Suzano",
+      "state": "SP",
+      "address": "Rua XV de Novembro, 2286",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-15",
+      "synced": true
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "sku": "SKU-001",
+      "name": "Café Torrado 500g",
+      "category": "Alimentos",
+      "price": 18.9,
+      "stock": 257
+    },
+    {
+      "id": "p002",
+      "sku": "SKU-002",
+      "name": "Açúcar Refinado 1kg",
+      "category": "Alimentos",
+      "price": 5.49,
+      "stock": 307
+    },
+    {
+      "id": "p003",
+      "sku": "SKU-003",
+      "name": "Óleo de Soja 900ml",
+      "category": "Alimentos",
+      "price": 7.99,
+      "stock": 236
+    },
+    {
+      "id": "p004",
+      "sku": "SKU-004",
+      "name": "Arroz Branco 5kg",
+      "category": "Alimentos",
+      "price": 24.9,
+      "stock": 169
+    },
+    {
+      "id": "p005",
+      "sku": "SKU-005",
+      "name": "Feijão Carioca 1kg",
+      "category": "Alimentos",
+      "price": 8.49,
+      "stock": 308
+    },
+    {
+      "id": "p006",
+      "sku": "SKU-006",
+      "name": "Macarrão Espaguete 500g",
+      "category": "Alimentos",
+      "price": 4.29,
+      "stock": 432
+    },
+    {
+      "id": "p007",
+      "sku": "SKU-007",
+      "name": "Farinha de Trigo 1kg",
+      "category": "Alimentos",
+      "price": 5.99,
+      "stock": 231
+    },
+    {
+      "id": "p008",
+      "sku": "SKU-008",
+      "name": "Leite UHT Integral 1L",
+      "category": "Bebidas",
+      "price": 5.79,
+      "stock": 204
+    },
+    {
+      "id": "p009",
+      "sku": "SKU-009",
+      "name": "Refrigerante Cola 2L",
+      "category": "Bebidas",
+      "price": 9.99,
+      "stock": 95
+    },
+    {
+      "id": "p010",
+      "sku": "SKU-010",
+      "name": "Suco de Laranja 1L",
+      "category": "Bebidas",
+      "price": 7.49,
+      "stock": 88
+    },
+    {
+      "id": "p011",
+      "sku": "SKU-011",
+      "name": "Água Mineral 500ml",
+      "category": "Bebidas",
+      "price": 2.49,
+      "stock": 406
+    },
+    {
+      "id": "p012",
+      "sku": "SKU-012",
+      "name": "Cerveja Pilsen 350ml",
+      "category": "Bebidas",
+      "price": 3.99,
+      "stock": 350
+    },
+    {
+      "id": "p013",
+      "sku": "SKU-013",
+      "name": "Detergente Neutro 500ml",
+      "category": "Limpeza",
+      "price": 2.99,
+      "stock": 240
+    },
+    {
+      "id": "p014",
+      "sku": "SKU-014",
+      "name": "Sabão em Pó 800g",
+      "category": "Limpeza",
+      "price": 11.9,
+      "stock": 188
+    },
+    {
+      "id": "p015",
+      "sku": "SKU-015",
+      "name": "Desinfetante 2L",
+      "category": "Limpeza",
+      "price": 8.9,
+      "stock": 116
+    },
+    {
+      "id": "p016",
+      "sku": "SKU-016",
+      "name": "Água Sanitária 1L",
+      "category": "Limpeza",
+      "price": 3.49,
+      "stock": 113
+    },
+    {
+      "id": "p017",
+      "sku": "SKU-017",
+      "name": "Esponja Multiuso 3un",
+      "category": "Limpeza",
+      "price": 4.99,
+      "stock": 187
+    },
+    {
+      "id": "p018",
+      "sku": "SKU-018",
+      "name": "Sabonete Cremoso 90g",
+      "category": "Higiene",
+      "price": 2.79,
+      "stock": 29
+    },
+    {
+      "id": "p019",
+      "sku": "SKU-019",
+      "name": "Shampoo 350ml",
+      "category": "Higiene",
+      "price": 14.9,
+      "stock": 412
+    },
+    {
+      "id": "p020",
+      "sku": "SKU-020",
+      "name": "Creme Dental 90g",
+      "category": "Higiene",
+      "price": 6.49,
+      "stock": 346
+    },
+    {
+      "id": "p021",
+      "sku": "SKU-021",
+      "name": "Papel Higiênico 12 rolos",
+      "category": "Higiene",
+      "price": 19.9,
+      "stock": 320
+    },
+    {
+      "id": "p022",
+      "sku": "SKU-022",
+      "name": "Fralda Infantil M 32un",
+      "category": "Higiene",
+      "price": 42.9,
+      "stock": 401
+    },
+    {
+      "id": "p023",
+      "sku": "SKU-023",
+      "name": "Ração Cães Adultos 10kg",
+      "category": "Pet",
+      "price": 89.9,
+      "stock": 97
+    },
+    {
+      "id": "p024",
+      "sku": "SKU-024",
+      "name": "Areia Sanitária Gatos 4kg",
+      "category": "Pet",
+      "price": 24.9,
+      "stock": 88
+    },
+    {
+      "id": "p025",
+      "sku": "SKU-025",
+      "name": "Biscoito Recheado 130g",
+      "category": "Mercearia",
+      "price": 3.29,
+      "stock": 479
+    },
+    {
+      "id": "p026",
+      "sku": "SKU-026",
+      "name": "Chocolate ao Leite 90g",
+      "category": "Mercearia",
+      "price": 6.99,
+      "stock": 323
+    },
+    {
+      "id": "p027",
+      "sku": "SKU-027",
+      "name": "Salgadinho Milho 140g",
+      "category": "Mercearia",
+      "price": 7.49,
+      "stock": 24
+    },
+    {
+      "id": "p028",
+      "sku": "SKU-028",
+      "name": "Azeite Extra Virgem 500ml",
+      "category": "Mercearia",
+      "price": 32.9,
+      "stock": 155
+    },
+    {
+      "id": "p029",
+      "sku": "SKU-029",
+      "name": "Molho de Tomate 340g",
+      "category": "Mercearia",
+      "price": 3.99,
+      "stock": 120
+    },
+    {
+      "id": "p030",
+      "sku": "SKU-030",
+      "name": "Milho Verde 200g",
+      "category": "Mercearia",
+      "price": 4.49,
+      "stock": 87
+    }
+  ],
+  "priceTables": [
+    {
+      "id": "t1",
+      "code": "TAB01",
+      "name": "Atacado",
+      "discountPercent": 10
+    },
+    {
+      "id": "t2",
+      "code": "TAB02",
+      "name": "Varejo",
+      "discountPercent": 0
+    },
+    {
+      "id": "t3",
+      "code": "TAB03",
+      "name": "Promocional",
+      "discountPercent": 15
+    }
+  ],
+  "paymentConditions": [
+    {
+      "id": "p1",
+      "code": "AVISTA",
+      "name": "À vista",
+      "days": 0
+    },
+    {
+      "id": "p2",
+      "code": "7DD",
+      "name": "7 dias",
+      "days": 7
+    },
+    {
+      "id": "p3",
+      "code": "14DD",
+      "name": "14 dias",
+      "days": 14
+    },
+    {
+      "id": "p4",
+      "code": "30DD",
+      "name": "30 dias",
+      "days": 30
+    },
+    {
+      "id": "p5",
+      "code": "3060",
+      "name": "30/60 dias",
+      "days": 45
+    },
+    {
+      "id": "p6",
+      "code": "90DD",
+      "name": "90 dias",
+      "days": 90
+    }
+  ],
+  "orders": [
+    {
+      "id": "o053",
+      "clientId": "c037",
+      "clientName": "Vanessa Martins",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-15",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 3,
+          "unitPrice": 42.9,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 128.7,
+      "synced": true
+    },
+    {
+      "id": "o063",
+      "clientId": "c046",
+      "clientName": "Rafael Dias",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-15",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 20,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-17",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 199.8,
+      "synced": true
+    },
+    {
+      "id": "o090",
+      "clientId": "c041",
+      "clientName": "Beatriz Souza",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-15",
+      "items": [
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 2,
+          "unitPrice": 19.9,
+          "neededDate": "2026-09-16",
+          "discount": 1
+        },
+        {
+          "productId": "p007",
+          "productName": "Farinha de Trigo 1kg",
+          "quantity": 12,
+          "unitPrice": 5.99,
+          "neededDate": "2026-09-20",
+          "discount": 0.3
+        },
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 9,
+          "unitPrice": 8.49,
+          "neededDate": "2026-09-19",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 9,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-18",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 216.4,
+      "synced": true
+    },
+    {
+      "id": "o098",
+      "clientId": "c032",
+      "clientName": "João Nogueira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-15",
+      "items": [
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 13,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-18",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 55.77,
+      "synced": true
+    },
+    {
+      "id": "o016",
+      "clientId": "c035",
+      "clientName": "Ana Souza",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-16",
+      "items": [
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 10,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-20",
+          "discount": 0.4
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 18,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 20,
+          "unitPrice": 89.9,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 11,
+          "unitPrice": 5.49,
+          "neededDate": "2026-09-19",
+          "discount": 0.27
+        }
+      ],
+      "status": "Entregue",
+      "total": 2385.82,
+      "synced": true
+    },
+    {
+      "id": "o036",
+      "clientId": "c013",
+      "clientName": "Cafeteria Monte Alto",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-16",
+      "items": [
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 8,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-19",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 57.9,
+      "synced": true
+    },
+    {
+      "id": "o049",
+      "clientId": "c044",
+      "clientName": "Diego Cardoso",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-16",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 12,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-19",
+          "discount": 0.2
+        },
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 7,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 93.11,
+      "synced": true
+    },
+    {
+      "id": "o078",
+      "clientId": "c036",
+      "clientName": "Maria Moreira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-16",
+      "items": [
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 7,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-18",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 15,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 14,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 4,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 1069.36,
+      "synced": true
+    },
+    {
+      "id": "o097",
+      "clientId": "c004",
+      "clientName": "Lanchonete União",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-16",
+      "items": [
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 13,
+          "unitPrice": 8.49,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 110.37,
+      "synced": true
+    },
+    {
+      "id": "o042",
+      "clientId": "c038",
+      "clientName": "Ana Santos",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-17",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 7,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 11,
+          "unitPrice": 8.9,
+          "neededDate": "2026-09-21",
+          "discount": 0.45
+        },
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 5,
+          "unitPrice": 89.9,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        },
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 17,
+          "unitPrice": 14.9,
+          "neededDate": "2026-09-24",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 870.18,
+      "synced": true
+    },
+    {
+      "id": "o056",
+      "clientId": "c032",
+      "clientName": "João Nogueira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-17",
+      "items": [
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 9,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 29.61,
+      "synced": true
+    },
+    {
+      "id": "o083",
+      "clientId": "c030",
+      "clientName": "Papelaria Recanto",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-17",
+      "items": [
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 8,
+          "unitPrice": 14.9,
+          "neededDate": "2026-09-20",
+          "discount": 0.75
+        }
+      ],
+      "status": "Enviado",
+      "total": 118.45,
+      "synced": true
+    },
+    {
+      "id": "o086",
+      "clientId": "c008",
+      "clientName": "Hortifruti São José",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-17",
+      "items": [
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 1,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-24",
+          "discount": 0
+        },
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 3,
+          "unitPrice": 4.49,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 18.46,
+      "synced": true
+    },
+    {
+      "id": "o015",
+      "clientId": "c003",
+      "clientName": "Mercearia Recanto",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 10,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 14,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 184.76,
+      "synced": true
+    },
+    {
+      "id": "o018",
+      "clientId": "c019",
+      "clientName": "Sacolão São José",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 8,
+          "unitPrice": 18.9,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 1,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        },
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 8,
+          "unitPrice": 18.9,
+          "neededDate": "2026-09-21",
+          "discount": 0.95
+        },
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 16,
+          "unitPrice": 8.9,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 448.14,
+      "synced": true
+    },
+    {
+      "id": "o020",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 12,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 9,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-25",
+          "discount": 0.4
+        }
+      ],
+      "status": "Entregue",
+      "total": 119.39,
+      "synced": true
+    },
+    {
+      "id": "o043",
+      "clientId": "c012",
+      "clientName": "Bar Vitória",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 11,
+          "unitPrice": 8.9,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 7,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-25",
+          "discount": 0.21
+        }
+      ],
+      "status": "Enviado",
+      "total": 127.72,
+      "synced": true
+    },
+    {
+      "id": "o062",
+      "clientId": "c046",
+      "clientName": "Rafael Dias",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 8,
+          "unitPrice": 2.49,
+          "neededDate": "2026-09-21",
+          "discount": 0.12
+        },
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 9,
+          "unitPrice": 19.9,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 17,
+          "unitPrice": 2.49,
+          "neededDate": "2026-09-21",
+          "discount": 0.12
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 15,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-20",
+          "discount": 0.37
+        }
+      ],
+      "status": "Em separação",
+      "total": 353.09,
+      "synced": true
+    },
+    {
+      "id": "o070",
+      "clientId": "c016",
+      "clientName": "Quitanda Central",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 13,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 14,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-23",
+          "discount": 0.6
+        },
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 12,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-20",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 18,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-21",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 512.45,
+      "synced": true
+    },
+    {
+      "id": "o080",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-18",
+      "items": [
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 3,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        },
+        {
+          "productId": "p012",
+          "productName": "Cerveja Pilsen 350ml",
+          "quantity": 20,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-24",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 89.67,
+      "synced": true
+    },
+    {
+      "id": "o026",
+      "clientId": "c002",
+      "clientName": "Mercado Estrela",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-19",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 6,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 8,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 209.32,
+      "synced": true
+    },
+    {
+      "id": "o047",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-19",
+      "items": [
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 17,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 4,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        },
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 20,
+          "unitPrice": 14.9,
+          "neededDate": "2026-09-21",
+          "discount": 0.75
+        },
+        {
+          "productId": "p013",
+          "productName": "Detergente Neutro 500ml",
+          "quantity": 14,
+          "unitPrice": 2.99,
+          "neededDate": "2026-09-23",
+          "discount": 0.15
+        }
+      ],
+      "status": "Enviado",
+      "total": 945.86,
+      "synced": true
+    },
+    {
+      "id": "o100",
+      "clientId": "c035",
+      "clientName": "Ana Souza",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-19",
+      "items": [
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 17,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 19,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-22",
+          "discount": 0.25
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 9,
+          "unitPrice": 5.49,
+          "neededDate": "2026-09-24",
+          "discount": 0.27
+        }
+      ],
+      "status": "Entregue",
+      "total": 254.03,
+      "synced": true
+    },
+    {
+      "id": "o084",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-20",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 10,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-22",
+          "discount": 0.5
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 5,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 128.35,
+      "synced": true
+    },
+    {
+      "id": "o027",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-21",
+      "items": [
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 5,
+          "unitPrice": 3.49,
+          "neededDate": "2026-09-24",
+          "discount": 0
+        },
+        {
+          "productId": "p026",
+          "productName": "Chocolate ao Leite 90g",
+          "quantity": 9,
+          "unitPrice": 6.99,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 7,
+          "unitPrice": 5.49,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 4,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-22",
+          "discount": 0.29
+        }
+      ],
+      "status": "Enviado",
+      "total": 141.66,
+      "synced": true
+    },
+    {
+      "id": "o071",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-21",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 6,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 4,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 41.1,
+      "synced": true
+    },
+    {
+      "id": "o099",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-21",
+      "items": [
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 6,
+          "unitPrice": 4.49,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 12,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-22",
+          "discount": 0
+        },
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 19,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 542.81,
+      "synced": true
+    },
+    {
+      "id": "o004",
+      "clientId": "c044",
+      "clientName": "Diego Cardoso",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 16,
+          "unitPrice": 89.9,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 15,
+          "unitPrice": 18.9,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 3,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 1820.6,
+      "synced": true
+    },
+    {
+      "id": "o008",
+      "clientId": "c032",
+      "clientName": "João Nogueira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 4,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 4,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 17,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 9,
+          "unitPrice": 19.9,
+          "neededDate": "2026-09-28",
+          "discount": 1
+        }
+      ],
+      "status": "Entregue",
+      "total": 643.6,
+      "synced": true
+    },
+    {
+      "id": "o021",
+      "clientId": "c017",
+      "clientName": "Doceria Ponto Certo",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 1,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-27",
+          "discount": 1.25
+        },
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 17,
+          "unitPrice": 8.49,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 1,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 171.27,
+      "synced": true
+    },
+    {
+      "id": "o023",
+      "clientId": "c027",
+      "clientName": "Açougue Ipiranga",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 7,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        },
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 5,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-28",
+          "discount": 0.5
+        },
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 1,
+          "unitPrice": 89.9,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 195.28,
+      "synced": true
+    },
+    {
+      "id": "o051",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 2,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p007",
+          "productName": "Farinha de Trigo 1kg",
+          "quantity": 8,
+          "unitPrice": 5.99,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 12,
+          "unitPrice": 3.49,
+          "neededDate": "2026-09-24",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 101.38,
+      "synced": true
+    },
+    {
+      "id": "o059",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 16,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-23",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 17,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 5,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-29",
+          "discount": 0.25
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 12,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 1042.28,
+      "synced": true
+    },
+    {
+      "id": "o094",
+      "clientId": "c041",
+      "clientName": "Beatriz Souza",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-22",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 3,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 11,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-23",
+          "discount": 0.5
+        },
+        {
+          "productId": "p018",
+          "productName": "Sabonete Cremoso 90g",
+          "quantity": 14,
+          "unitPrice": 2.79,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 223.15,
+      "synced": true
+    },
+    {
+      "id": "o032",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-23",
+      "items": [
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 14,
+          "unitPrice": 11.9,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 15,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-28",
+          "discount": 0.4
+        },
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 7,
+          "unitPrice": 8.9,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 348.35,
+      "synced": true
+    },
+    {
+      "id": "o067",
+      "clientId": "c031",
+      "clientName": "Rafael Carvalho",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-23",
+      "items": [
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 13,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-28",
+          "discount": 0
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 18,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-25",
+          "discount": 0.37
+        },
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 11,
+          "unitPrice": 8.49,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 13,
+          "unitPrice": 8.9,
+          "neededDate": "2026-09-30",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 427.91,
+      "synced": true
+    },
+    {
+      "id": "o033",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-24",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 1,
+          "unitPrice": 9.99,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 16,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-30",
+          "discount": 1.25
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 14,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 512,
+      "synced": true
+    },
+    {
+      "id": "o072",
+      "clientId": "c035",
+      "clientName": "Ana Souza",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-24",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 17,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-25",
+          "discount": 1.25
+        },
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 8,
+          "unitPrice": 7.99,
+          "neededDate": "2026-09-26",
+          "discount": 0.4
+        }
+      ],
+      "status": "Entregue",
+      "total": 485.57,
+      "synced": true
+    },
+    {
+      "id": "o077",
+      "clientId": "c029",
+      "clientName": "Pet Shop Boa Vista",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t3",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-24",
+      "items": [
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 18,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 5,
+          "unitPrice": 32.9,
+          "neededDate": "2026-09-27",
+          "discount": 1.65
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 7,
+          "unitPrice": 3.49,
+          "neededDate": "2026-09-25",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 304.1,
+      "synced": true
+    },
+    {
+      "id": "o024",
+      "clientId": "c028",
+      "clientName": "Hortifruti Primavera",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-25",
+      "items": [
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 16,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-01",
+          "discount": 0.22
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 12,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-01",
+          "discount": 0.12
+        },
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 9,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-02",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 141.79,
+      "synced": true
+    },
+    {
+      "id": "o050",
+      "clientId": "c022",
+      "clientName": "Mercado Vila Nova",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-25",
+      "items": [
+        {
+          "productId": "p012",
+          "productName": "Cerveja Pilsen 350ml",
+          "quantity": 2,
+          "unitPrice": 3.99,
+          "neededDate": "2026-09-26",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 7.98,
+      "synced": true
+    },
+    {
+      "id": "o081",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-25",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 3,
+          "unitPrice": 8.9,
+          "neededDate": "2026-10-02",
+          "discount": 0.45
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 14,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-02",
+          "discount": 1.25
+        },
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 4,
+          "unitPrice": 19.9,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 16,
+          "unitPrice": 5.79,
+          "neededDate": "2026-09-30",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 545.84,
+      "synced": true
+    },
+    {
+      "id": "o007",
+      "clientId": "c028",
+      "clientName": "Hortifruti Primavera",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-26",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 15,
+          "unitPrice": 42.9,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 17,
+          "unitPrice": 5.79,
+          "neededDate": "2026-10-02",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 12,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-27",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 801.81,
+      "synced": true
+    },
+    {
+      "id": "o054",
+      "clientId": "c046",
+      "clientName": "Rafael Dias",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-26",
+      "items": [
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 8,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        },
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 5,
+          "unitPrice": 89.9,
+          "neededDate": "2026-09-30",
+          "discount": 4.5
+        }
+      ],
+      "status": "Em separação",
+      "total": 479.32,
+      "synced": true
+    },
+    {
+      "id": "o028",
+      "clientId": "c030",
+      "clientName": "Papelaria Recanto",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-27",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 20,
+          "unitPrice": 3.99,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 18,
+          "unitPrice": 3.29,
+          "neededDate": "2026-09-30",
+          "discount": 0.16
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 10,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 213.76,
+      "synced": true
+    },
+    {
+      "id": "o075",
+      "clientId": "c029",
+      "clientName": "Pet Shop Boa Vista",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t3",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-27",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 18,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 16,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-04",
+          "discount": 1.25
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 7,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-03",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 17,
+          "unitPrice": 4.29,
+          "neededDate": "2026-09-29",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 953.21,
+      "synced": true
+    },
+    {
+      "id": "o041",
+      "clientId": "c019",
+      "clientName": "Sacolão São José",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-28",
+      "items": [
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 16,
+          "unitPrice": 89.9,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 17,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 19,
+          "unitPrice": 2.49,
+          "neededDate": "2026-09-30",
+          "discount": 0.12
+        }
+      ],
+      "status": "Pendente",
+      "total": 1908.89,
+      "synced": true
+    },
+    {
+      "id": "o095",
+      "clientId": "c022",
+      "clientName": "Mercado Vila Nova",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-28",
+      "items": [
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 15,
+          "unitPrice": 5.79,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 86.85,
+      "synced": true
+    },
+    {
+      "id": "o005",
+      "clientId": "c018",
+      "clientName": "Churrascaria Tradição",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 15,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 373.5,
+      "synced": true
+    },
+    {
+      "id": "o009",
+      "clientId": "c039",
+      "clientName": "Lucas Rodrigues",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 19,
+          "unitPrice": 8.9,
+          "neededDate": "2026-10-06",
+          "discount": 0
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 9,
+          "unitPrice": 3.49,
+          "neededDate": "2026-10-03",
+          "discount": 0
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 8,
+          "unitPrice": 7.49,
+          "neededDate": "2026-09-30",
+          "discount": 0.37
+        }
+      ],
+      "status": "Pendente",
+      "total": 260.06,
+      "synced": true
+    },
+    {
+      "id": "o019",
+      "clientId": "c041",
+      "clientName": "Beatriz Souza",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 15,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 18,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-03",
+          "discount": 0
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 13,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-01",
+          "discount": 0.12
+        }
+      ],
+      "status": "Enviado",
+      "total": 234.42,
+      "synced": true
+    },
+    {
+      "id": "o025",
+      "clientId": "c016",
+      "clientName": "Quitanda Central",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 9,
+          "unitPrice": 9.99,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 89.91,
+      "synced": true
+    },
+    {
+      "id": "o030",
+      "clientId": "c013",
+      "clientName": "Cafeteria Monte Alto",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 20,
+          "unitPrice": 24.9,
+          "neededDate": "2026-09-30",
+          "discount": 1.25
+        }
+      ],
+      "status": "Em separação",
+      "total": 496.75,
+      "synced": true
+    },
+    {
+      "id": "o038",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 16,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 18,
+          "unitPrice": 3.29,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 3,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 161.53,
+      "synced": true
+    },
+    {
+      "id": "o039",
+      "clientId": "c016",
+      "clientName": "Quitanda Central",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 15,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-02",
+          "discount": 2.15
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 20,
+          "unitPrice": 4.99,
+          "neededDate": "2026-09-30",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 741.15,
+      "synced": true
+    },
+    {
+      "id": "o040",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 6,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-05",
+          "discount": 2.15
+        },
+        {
+          "productId": "p013",
+          "productName": "Detergente Neutro 500ml",
+          "quantity": 8,
+          "unitPrice": 2.99,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        },
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 20,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 1137.17,
+      "synced": true
+    },
+    {
+      "id": "o045",
+      "clientId": "c034",
+      "clientName": "André Carvalho",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 3,
+          "unitPrice": 19.9,
+          "neededDate": "2026-10-02",
+          "discount": 1
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 17,
+          "unitPrice": 11.9,
+          "neededDate": "2026-10-01",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 6,
+          "unitPrice": 11.9,
+          "neededDate": "2026-10-06",
+          "discount": 0
+        },
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 13,
+          "unitPrice": 6.49,
+          "neededDate": "2026-10-06",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 416.77,
+      "synced": true
+    },
+    {
+      "id": "o060",
+      "clientId": "c049",
+      "clientName": "Beatriz Barbosa",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 16,
+          "unitPrice": 6.49,
+          "neededDate": "2026-10-06",
+          "discount": 0.32
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 8,
+          "unitPrice": 3.29,
+          "neededDate": "2026-10-05",
+          "discount": 0.16
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 4,
+          "unitPrice": 3.49,
+          "neededDate": "2026-10-01",
+          "discount": 0.17
+        }
+      ],
+      "status": "Entregue",
+      "total": 143.47,
+      "synced": true
+    },
+    {
+      "id": "o066",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 18,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-01",
+          "discount": 1.25
+        },
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 7,
+          "unitPrice": 6.49,
+          "neededDate": "2026-09-30",
+          "discount": 0.32
+        },
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 14,
+          "unitPrice": 14.9,
+          "neededDate": "2026-10-03",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 6,
+          "unitPrice": 4.29,
+          "neededDate": "2026-10-03",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 726.4,
+      "synced": true
+    },
+    {
+      "id": "o069",
+      "clientId": "c032",
+      "clientName": "João Nogueira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 8,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 59.92,
+      "synced": true
+    },
+    {
+      "id": "o076",
+      "clientId": "c042",
+      "clientName": "Beatriz Moreira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-09-29",
+      "items": [
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 12,
+          "unitPrice": 18.9,
+          "neededDate": "2026-10-04",
+          "discount": 0.95
+        }
+      ],
+      "status": "Entregue",
+      "total": 225.85,
+      "synced": true
+    },
+    {
+      "id": "o052",
+      "clientId": "c017",
+      "clientName": "Doceria Ponto Certo",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-09-30",
+      "items": [
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 10,
+          "unitPrice": 3.29,
+          "neededDate": "2026-10-02",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 32.9,
+      "synced": true
+    },
+    {
+      "id": "o002",
+      "clientId": "c013",
+      "clientName": "Cafeteria Monte Alto",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 4,
+          "unitPrice": 3.29,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 13.16,
+      "synced": true
+    },
+    {
+      "id": "o011",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 13,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 557.7,
+      "synced": true
+    },
+    {
+      "id": "o048",
+      "clientId": "c045",
+      "clientName": "Patrícia Dias",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 7,
+          "unitPrice": 9.99,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        },
+        {
+          "productId": "p025",
+          "productName": "Biscoito Recheado 130g",
+          "quantity": 14,
+          "unitPrice": 3.29,
+          "neededDate": "2026-10-08",
+          "discount": 0.16
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 6,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        },
+        {
+          "productId": "p018",
+          "productName": "Sabonete Cremoso 90g",
+          "quantity": 16,
+          "unitPrice": 2.79,
+          "neededDate": "2026-10-02",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 357.87,
+      "synced": true
+    },
+    {
+      "id": "o055",
+      "clientId": "c036",
+      "clientName": "Maria Moreira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 15,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 5,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-05",
+          "discount": 0.37
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 11,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-06",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 423.33,
+      "synced": true
+    },
+    {
+      "id": "o061",
+      "clientId": "c005",
+      "clientName": "Restaurante Porto Seguro",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 19,
+          "unitPrice": 7.99,
+          "neededDate": "2026-10-06",
+          "discount": 0.4
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 3,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-07",
+          "discount": 0
+        },
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 20,
+          "unitPrice": 4.29,
+          "neededDate": "2026-10-04",
+          "discount": 0.21
+        },
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 3,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-04",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 257.94,
+      "synced": true
+    },
+    {
+      "id": "o088",
+      "clientId": "c011",
+      "clientName": "Farmácia Progresso",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-01",
+      "items": [
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 9,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-02",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 22.41,
+      "synced": true
+    },
+    {
+      "id": "o082",
+      "clientId": "c050",
+      "clientName": "Priscila Rodrigues",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-02",
+      "items": [
+        {
+          "productId": "p013",
+          "productName": "Detergente Neutro 500ml",
+          "quantity": 16,
+          "unitPrice": 2.99,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 20,
+          "unitPrice": 3.49,
+          "neededDate": "2026-10-08",
+          "discount": 0.17
+        },
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 10,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        },
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 7,
+          "unitPrice": 9.99,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 232.3,
+      "synced": true
+    },
+    {
+      "id": "o003",
+      "clientId": "c025",
+      "clientName": "Restaurante Vila Nova",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-03",
+      "items": [
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 20,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-09",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 498,
+      "synced": true
+    },
+    {
+      "id": "o006",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-03",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 13,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-04",
+          "discount": 1.25
+        },
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 1,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 365.35,
+      "synced": true
+    },
+    {
+      "id": "o046",
+      "clientId": "c042",
+      "clientName": "Beatriz Moreira",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-03",
+      "items": [
+        {
+          "productId": "p013",
+          "productName": "Detergente Neutro 500ml",
+          "quantity": 13,
+          "unitPrice": 2.99,
+          "neededDate": "2026-10-05",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 38.87,
+      "synced": true
+    },
+    {
+      "id": "o079",
+      "clientId": "c029",
+      "clientName": "Pet Shop Boa Vista",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t3",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-10-03",
+      "items": [
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-07",
+          "discount": 0
+        },
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 15,
+          "unitPrice": 89.9,
+          "neededDate": "2026-10-08",
+          "discount": 4.5
+        }
+      ],
+      "status": "Enviado",
+      "total": 1352.98,
+      "synced": true
+    },
+    {
+      "id": "o014",
+      "clientId": "c048",
+      "clientName": "Thiago Cardoso",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-04",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 11,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-09",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 4,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-07",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 373.5,
+      "synced": true
+    },
+    {
+      "id": "o093",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-04",
+      "items": [
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 4,
+          "unitPrice": 3.49,
+          "neededDate": "2026-10-09",
+          "discount": 0.17
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 18,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-05",
+          "discount": 1.65
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 7,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        },
+        {
+          "productId": "p026",
+          "productName": "Chocolate ao Leite 90g",
+          "quantity": 13,
+          "unitPrice": 6.99,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 733.64,
+      "synced": true
+    },
+    {
+      "id": "o010",
+      "clientId": "c049",
+      "clientName": "Beatriz Barbosa",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-05",
+      "items": [
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 1,
+          "unitPrice": 18.9,
+          "neededDate": "2026-10-08",
+          "discount": 0.95
+        },
+        {
+          "productId": "p020",
+          "productName": "Creme Dental 90g",
+          "quantity": 1,
+          "unitPrice": 6.49,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        },
+        {
+          "productId": "p007",
+          "productName": "Farinha de Trigo 1kg",
+          "quantity": 3,
+          "unitPrice": 5.99,
+          "neededDate": "2026-10-08",
+          "discount": 0.3
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 20,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 91.91,
+      "synced": true
+    },
+    {
+      "id": "o065",
+      "clientId": "c034",
+      "clientName": "André Carvalho",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-05",
+      "items": [
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 9,
+          "unitPrice": 7.99,
+          "neededDate": "2026-10-07",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 71.91,
+      "synced": true
+    },
+    {
+      "id": "o074",
+      "clientId": "c034",
+      "clientName": "André Carvalho",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-05",
+      "items": [
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 12,
+          "unitPrice": 19.9,
+          "neededDate": "2026-10-11",
+          "discount": 1
+        },
+        {
+          "productId": "p011",
+          "productName": "Água Mineral 500ml",
+          "quantity": 13,
+          "unitPrice": 2.49,
+          "neededDate": "2026-10-08",
+          "discount": 0.12
+        },
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 3,
+          "unitPrice": 14.9,
+          "neededDate": "2026-10-07",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 314.75,
+      "synced": true
+    },
+    {
+      "id": "o091",
+      "clientId": "c019",
+      "clientName": "Sacolão São José",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-10-05",
+      "items": [
+        {
+          "productId": "p006",
+          "productName": "Macarrão Espaguete 500g",
+          "quantity": 11,
+          "unitPrice": 4.29,
+          "neededDate": "2026-10-09",
+          "discount": 0
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 12,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-06",
+          "discount": 0.37
+        }
+      ],
+      "status": "Enviado",
+      "total": 136.7,
+      "synced": true
+    },
+    {
+      "id": "o064",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-06",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 1,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 42.9,
+      "synced": true
+    },
+    {
+      "id": "o092",
+      "clientId": "c008",
+      "clientName": "Hortifruti São José",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-06",
+      "items": [
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 6,
+          "unitPrice": 14.9,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 15,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 2,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 251.55,
+      "synced": true
+    },
+    {
+      "id": "o022",
+      "clientId": "c005",
+      "clientName": "Restaurante Porto Seguro",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-07",
+      "items": [
+        {
+          "productId": "p018",
+          "productName": "Sabonete Cremoso 90g",
+          "quantity": 4,
+          "unitPrice": 2.79,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 14,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 6,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 516.7,
+      "synced": true
+    },
+    {
+      "id": "o096",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-07",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 15,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-09",
+          "discount": 1.25
+        },
+        {
+          "productId": "p030",
+          "productName": "Milho Verde 200g",
+          "quantity": 2,
+          "unitPrice": 4.49,
+          "neededDate": "2026-10-08",
+          "discount": 0
+        },
+        {
+          "productId": "p007",
+          "productName": "Farinha de Trigo 1kg",
+          "quantity": 3,
+          "unitPrice": 5.99,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 3,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 414.17,
+      "synced": true
+    },
+    {
+      "id": "o017",
+      "clientId": "c007",
+      "clientName": "Açougue Central",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-08",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 20,
+          "unitPrice": 3.99,
+          "neededDate": "2026-10-09",
+          "discount": 0.2
+        },
+        {
+          "productId": "p016",
+          "productName": "Água Sanitária 1L",
+          "quantity": 14,
+          "unitPrice": 3.49,
+          "neededDate": "2026-10-14",
+          "discount": 0.17
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 12,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-14",
+          "discount": 0.37
+        },
+        {
+          "productId": "p027",
+          "productName": "Salgadinho Milho 140g",
+          "quantity": 10,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-13",
+          "discount": 0.37
+        }
+      ],
+      "status": "Pendente",
+      "total": 292.33,
+      "synced": true
+    },
+    {
+      "id": "o029",
+      "clientId": "c049",
+      "clientName": "Beatriz Barbosa",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-08",
+      "items": [
+        {
+          "productId": "p023",
+          "productName": "Ração Cães Adultos 10kg",
+          "quantity": 14,
+          "unitPrice": 89.9,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 20,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-11",
+          "discount": 1.65
+        },
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 12,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-09",
+          "discount": 2.15
+        },
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 19,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-14",
+          "discount": 1.25
+        }
+      ],
+      "status": "Pendente",
+      "total": 2899.45,
+      "synced": true
+    },
+    {
+      "id": "o068",
+      "clientId": "c029",
+      "clientName": "Pet Shop Boa Vista",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t3",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-10-08",
+      "items": [
+        {
+          "productId": "p012",
+          "productName": "Cerveja Pilsen 350ml",
+          "quantity": 18,
+          "unitPrice": 3.99,
+          "neededDate": "2026-10-11",
+          "discount": 0.2
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 6,
+          "unitPrice": 11.9,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        },
+        {
+          "productId": "p021",
+          "productName": "Papel Higiênico 12 rolos",
+          "quantity": 14,
+          "unitPrice": 19.9,
+          "neededDate": "2026-10-11",
+          "discount": 1
+        }
+      ],
+      "status": "Entregue",
+      "total": 420.62,
+      "synced": true
+    },
+    {
+      "id": "o085",
+      "clientId": "c046",
+      "clientName": "Rafael Dias",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-08",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 4,
+          "unitPrice": 8.9,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 18,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 7,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-15",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 169.35,
+      "synced": true
+    },
+    {
+      "id": "o034",
+      "clientId": "c043",
+      "clientName": "Vanessa Costa",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-10-09",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 15,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-14",
+          "discount": 2.15
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 20,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        },
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 6,
+          "unitPrice": 18.9,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 1252.75,
+      "synced": true
+    },
+    {
+      "id": "o035",
+      "clientId": "c028",
+      "clientName": "Hortifruti Primavera",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t3",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-09",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 12,
+          "unitPrice": 8.9,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        },
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 9,
+          "unitPrice": 3.99,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        },
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 11,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 18,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-10",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 1008.81,
+      "synced": true
+    },
+    {
+      "id": "o058",
+      "clientId": "c040",
+      "clientName": "Ricardo Gomes",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-09",
+      "items": [
+        {
+          "productId": "p004",
+          "productName": "Arroz Branco 5kg",
+          "quantity": 14,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-11",
+          "discount": 0
+        }
+      ],
+      "status": "Em separação",
+      "total": 348.6,
+      "synced": true
+    },
+    {
+      "id": "o089",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-09",
+      "items": [
+        {
+          "productId": "p007",
+          "productName": "Farinha de Trigo 1kg",
+          "quantity": 7,
+          "unitPrice": 5.99,
+          "neededDate": "2026-10-14",
+          "discount": 0.3
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 5,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-12",
+          "discount": 0.27
+        },
+        {
+          "productId": "p003",
+          "productName": "Óleo de Soja 900ml",
+          "quantity": 12,
+          "unitPrice": 7.99,
+          "neededDate": "2026-10-15",
+          "discount": 0.4
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 16,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-13",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 690.69,
+      "synced": true
+    },
+    {
+      "id": "o013",
+      "clientId": "c005",
+      "clientName": "Restaurante Porto Seguro",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-10",
+      "items": [
+        {
+          "productId": "p026",
+          "productName": "Chocolate ao Leite 90g",
+          "quantity": 5,
+          "unitPrice": 6.99,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 34.95,
+      "synced": true
+    },
+    {
+      "id": "o057",
+      "clientId": "c048",
+      "clientName": "Thiago Cardoso",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-10",
+      "items": [
+        {
+          "productId": "p015",
+          "productName": "Desinfetante 2L",
+          "quantity": 8,
+          "unitPrice": 8.9,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 3,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 17,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-13",
+          "discount": 0.27
+        },
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 2,
+          "unitPrice": 8.49,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 197.71,
+      "synced": true
+    },
+    {
+      "id": "o001",
+      "clientId": "c012",
+      "clientName": "Bar Vitória",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t1",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-10-11",
+      "items": [
+        {
+          "productId": "p029",
+          "productName": "Molho de Tomate 340g",
+          "quantity": 8,
+          "unitPrice": 3.99,
+          "neededDate": "2026-10-13",
+          "discount": 0.2
+        },
+        {
+          "productId": "p028",
+          "productName": "Azeite Extra Virgem 500ml",
+          "quantity": 16,
+          "unitPrice": 32.9,
+          "neededDate": "2026-10-18",
+          "discount": 1.65
+        },
+        {
+          "productId": "p009",
+          "productName": "Refrigerante Cola 2L",
+          "quantity": 4,
+          "unitPrice": 9.99,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        },
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 15,
+          "unitPrice": 14.9,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 819.93,
+      "synced": true
+    },
+    {
+      "id": "o012",
+      "clientId": "c019",
+      "clientName": "Sacolão São José",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p6",
+      "createdAt": "2026-10-11",
+      "items": [
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 5,
+          "unitPrice": 8.49,
+          "neededDate": "2026-10-17",
+          "discount": 0.42
+        },
+        {
+          "productId": "p002",
+          "productName": "Açúcar Refinado 1kg",
+          "quantity": 5,
+          "unitPrice": 5.49,
+          "neededDate": "2026-10-16",
+          "discount": 0
+        },
+        {
+          "productId": "p024",
+          "productName": "Areia Sanitária Gatos 4kg",
+          "quantity": 8,
+          "unitPrice": 24.9,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 268.68,
+      "synced": true
+    },
+    {
+      "id": "o031",
+      "clientId": "c005",
+      "clientName": "Restaurante Porto Seguro",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p4",
+      "createdAt": "2026-10-11",
+      "items": [
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 5,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-12",
+          "discount": 0
+        },
+        {
+          "productId": "p010",
+          "productName": "Suco de Laranja 1L",
+          "quantity": 8,
+          "unitPrice": 7.49,
+          "neededDate": "2026-10-18",
+          "discount": 0
+        },
+        {
+          "productId": "p008",
+          "productName": "Leite UHT Integral 1L",
+          "quantity": 1,
+          "unitPrice": 5.79,
+          "neededDate": "2026-10-15",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 103.16,
+      "synced": true
+    },
+    {
+      "id": "o044",
+      "clientId": "c039",
+      "clientName": "Lucas Rodrigues",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p5",
+      "createdAt": "2026-10-11",
+      "items": [
+        {
+          "productId": "p005",
+          "productName": "Feijão Carioca 1kg",
+          "quantity": 7,
+          "unitPrice": 8.49,
+          "neededDate": "2026-10-18",
+          "discount": 0
+        }
+      ],
+      "status": "Entregue",
+      "total": 59.43,
+      "synced": true
+    },
+    {
+      "id": "o087",
+      "clientId": "c014",
+      "clientName": "Sorveteria Estrela",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t1",
+      "paymentConditionId": "p2",
+      "createdAt": "2026-10-11",
+      "items": [
+        {
+          "productId": "p001",
+          "productName": "Café Torrado 500g",
+          "quantity": 19,
+          "unitPrice": 18.9,
+          "neededDate": "2026-10-14",
+          "discount": 0
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 13,
+          "unitPrice": 11.9,
+          "neededDate": "2026-10-13",
+          "discount": 0.6
+        },
+        {
+          "productId": "p014",
+          "productName": "Sabão em Pó 800g",
+          "quantity": 4,
+          "unitPrice": 11.9,
+          "neededDate": "2026-10-15",
+          "discount": 0
+        },
+        {
+          "productId": "p017",
+          "productName": "Esponja Multiuso 3un",
+          "quantity": 14,
+          "unitPrice": 4.99,
+          "neededDate": "2026-10-15",
+          "discount": 0
+        }
+      ],
+      "status": "Enviado",
+      "total": 630.66,
+      "synced": true
+    },
+    {
+      "id": "o037",
+      "clientId": "c025",
+      "clientName": "Restaurante Vila Nova",
+      "sellerId": "v002",
+      "sellerName": "Ana Souza",
+      "priceTableId": "t2",
+      "paymentConditionId": "p1",
+      "createdAt": "2026-10-12",
+      "items": [
+        {
+          "productId": "p022",
+          "productName": "Fralda Infantil M 32un",
+          "quantity": 10,
+          "unitPrice": 42.9,
+          "neededDate": "2026-10-15",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 429,
+      "synced": true
+    },
+    {
+      "id": "o073",
+      "clientId": "c016",
+      "clientName": "Quitanda Central",
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "priceTableId": "t2",
+      "paymentConditionId": "p3",
+      "createdAt": "2026-10-12",
+      "items": [
+        {
+          "productId": "p019",
+          "productName": "Shampoo 350ml",
+          "quantity": 20,
+          "unitPrice": 14.9,
+          "neededDate": "2026-10-19",
+          "discount": 0
+        },
+        {
+          "productId": "p018",
+          "productName": "Sabonete Cremoso 90g",
+          "quantity": 14,
+          "unitPrice": 2.79,
+          "neededDate": "2026-10-13",
+          "discount": 0
+        }
+      ],
+      "status": "Pendente",
+      "total": 337.06,
+      "synced": true
+    },
+    {
+      "id": "PED-119059",
+      "clientId": "c007",
+      "createdAt": "2026-10-16T20:21:59.059Z",
+      "priceTableId": "t3",
+      "paymentConditionId": "p1",
+      "status": "Pendente",
+      "clientName": "Açougue Central",
+      "items": [
+        {
+          "productId": "p005",
+          "quantity": 100,
+          "unitPrice": 7.22,
+          "discount": 0,
+          "productName": "Feijão Carioca 1kg",
+          "neededDate": "2026-10-18"
+        }
+      ],
+      "sellerId": "seller-1",
+      "sellerName": "Carlos Silva",
+      "total": 722,
+      "synced": true
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a021",
+      "sellerId": "v002",
+      "clientId": "c045",
+      "clientName": "Patrícia Dias",
+      "date": "2026-10-12",
+      "time": "08:00",
+      "address": "Travessa das Palmeiras, 1550",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a005",
+      "sellerId": "seller-1",
+      "clientId": "c026",
+      "clientName": "Empório Sabor & Cia",
+      "date": "2026-10-12",
+      "time": "09:15",
+      "address": "Rua do Comércio, 8790",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a001",
+      "sellerId": "seller-1",
+      "clientId": "c027",
+      "clientName": "Açougue Ipiranga",
+      "date": "2026-10-12",
+      "time": "10:00",
+      "address": "Rua São José, 31",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a029",
+      "sellerId": "seller-1",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "date": "2026-10-12",
+      "time": "11:30",
+      "address": "Rua XV de Novembro, 127",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a009",
+      "sellerId": "v002",
+      "clientId": "c025",
+      "clientName": "Restaurante Vila Nova",
+      "date": "2026-10-12",
+      "time": "11:45",
+      "address": "Av. Paulista, 5126",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a028",
+      "sellerId": "seller-1",
+      "clientId": "c007",
+      "clientName": "Açougue Central",
+      "date": "2026-10-12",
+      "time": "14:00",
+      "address": "Rua Projetada, 6079",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a011",
+      "sellerId": "v002",
+      "clientId": "c025",
+      "clientName": "Restaurante Vila Nova",
+      "date": "2026-10-12",
+      "time": "15:15",
+      "address": "Av. Paulista, 5126",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a040",
+      "sellerId": "seller-1",
+      "clientId": "c012",
+      "clientName": "Bar Vitória",
+      "date": "2026-10-12",
+      "time": "17:30",
+      "address": "Av. Paulista, 5582",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a006",
+      "sellerId": "seller-1",
+      "clientId": "c038",
+      "clientName": "Ana Santos",
+      "date": "2026-10-13",
+      "time": "12:15",
+      "address": "Rua do Comércio, 2918",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a022",
+      "sellerId": "seller-1",
+      "clientId": "c002",
+      "clientName": "Mercado Estrela",
+      "date": "2026-10-14",
+      "time": "13:45",
+      "address": "Av. Paulista, 947",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a035",
+      "sellerId": "v002",
+      "clientId": "c024",
+      "clientName": "Lanchonete Tradição",
+      "date": "2026-10-14",
+      "time": "15:15",
+      "address": "Av. Brasil, 8522",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a010",
+      "sellerId": "v002",
+      "clientId": "c005",
+      "clientName": "Restaurante Porto Seguro",
+      "date": "2026-10-15",
+      "time": "11:45",
+      "address": "Rua São José, 814",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a039",
+      "sellerId": "v002",
+      "clientId": "c039",
+      "clientName": "Lucas Rodrigues",
+      "date": "2026-10-16",
+      "time": "09:30",
+      "address": "Rua XV de Novembro, 3487",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a031",
+      "sellerId": "seller-1",
+      "clientId": "c018",
+      "clientName": "Churrascaria Tradição",
+      "date": "2026-10-17",
+      "time": "11:15",
+      "address": "Av. Paulista, 7289",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a007",
+      "sellerId": "seller-1",
+      "clientId": "c017",
+      "clientName": "Doceria Ponto Certo",
+      "date": "2026-10-17",
+      "time": "15:30",
+      "address": "Av. Paulista, 3157",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a027",
+      "sellerId": "v002",
+      "clientId": "c045",
+      "clientName": "Patrícia Dias",
+      "date": "2026-10-18",
+      "time": "13:15",
+      "address": "Travessa das Palmeiras, 1550",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a032",
+      "sellerId": "seller-1",
+      "clientId": "c046",
+      "clientName": "Rafael Dias",
+      "date": "2026-10-19",
+      "time": "12:30",
+      "address": "Rua Projetada, 3327",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a034",
+      "sellerId": "v002",
+      "clientId": "c009",
+      "clientName": "Pet Shop Vitória",
+      "date": "2026-10-19",
+      "time": "15:15",
+      "address": "Av. Brasil, 664",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a033",
+      "sellerId": "seller-1",
+      "clientId": "c001",
+      "clientName": "Padaria Aurora",
+      "date": "2026-10-20",
+      "time": "08:30",
+      "address": "Rua do Comércio, 7530",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a036",
+      "sellerId": "v002",
+      "clientId": "c009",
+      "clientName": "Pet Shop Vitória",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "address": "Av. Brasil, 664",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a037",
+      "sellerId": "seller-1",
+      "clientId": "c002",
+      "clientName": "Mercado Estrela",
+      "date": "2026-10-20",
+      "time": "11:15",
+      "address": "Av. Paulista, 947",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a020",
+      "sellerId": "seller-1",
+      "clientId": "c021",
+      "clientName": "Padaria São José",
+      "date": "2026-10-20",
+      "time": "13:00",
+      "address": "Rua das Flores, 3714",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a015",
+      "sellerId": "seller-1",
+      "clientId": "c036",
+      "clientName": "Maria Moreira",
+      "date": "2026-10-20",
+      "time": "14:30",
+      "address": "Av. Central, 724",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a030",
+      "sellerId": "seller-1",
+      "clientId": "c031",
+      "clientName": "Rafael Carvalho",
+      "date": "2026-10-20",
+      "time": "15:15",
+      "address": "Rua XV de Novembro, 1912",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a016",
+      "sellerId": "v002",
+      "clientId": "c015",
+      "clientName": "Pizzaria Esperança",
+      "date": "2026-10-20",
+      "time": "17:45",
+      "address": "Av. Brasil, 2541",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a023",
+      "sellerId": "v002",
+      "clientId": "c020",
+      "clientName": "Conveniência Ipiranga",
+      "date": "2026-10-21",
+      "time": "11:00",
+      "address": "Rua São José, 5214",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a013",
+      "sellerId": "v002",
+      "clientId": "c034",
+      "clientName": "André Carvalho",
+      "date": "2026-10-21",
+      "time": "12:15",
+      "address": "Av. Independência, 7582",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a024",
+      "sellerId": "seller-1",
+      "clientId": "c036",
+      "clientName": "Maria Moreira",
+      "date": "2026-10-21",
+      "time": "17:15",
+      "address": "Av. Central, 724",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a025",
+      "sellerId": "seller-1",
+      "clientId": "c026",
+      "clientName": "Empório Sabor & Cia",
+      "date": "2026-10-22",
+      "time": "09:15",
+      "address": "Rua do Comércio, 8790",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a018",
+      "sellerId": "seller-1",
+      "clientId": "c006",
+      "clientName": "Empório Bom Preço",
+      "date": "2026-10-22",
+      "time": "11:45",
+      "address": "Rua XV de Novembro, 854",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a026",
+      "sellerId": "seller-1",
+      "clientId": "c047",
+      "clientName": "Diego Barbosa",
+      "date": "2026-10-23",
+      "time": "09:15",
+      "address": "Rua XV de Novembro, 127",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a014",
+      "sellerId": "v002",
+      "clientId": "c030",
+      "clientName": "Papelaria Recanto",
+      "date": "2026-10-23",
+      "time": "11:15",
+      "address": "Rua do Comércio, 5817",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a008",
+      "sellerId": "seller-1",
+      "clientId": "c048",
+      "clientName": "Thiago Cardoso",
+      "date": "2026-10-23",
+      "time": "13:00",
+      "address": "Rua do Comércio, 5957",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a012",
+      "sellerId": "seller-1",
+      "clientId": "c031",
+      "clientName": "Rafael Carvalho",
+      "date": "2026-10-23",
+      "time": "14:00",
+      "address": "Rua XV de Novembro, 1912",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a002",
+      "sellerId": "seller-1",
+      "clientId": "c028",
+      "clientName": "Hortifruti Primavera",
+      "date": "2026-10-23",
+      "time": "15:30",
+      "address": "Av. Central, 7820",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a017",
+      "sellerId": "v002",
+      "clientId": "c050",
+      "clientName": "Priscila Rodrigues",
+      "date": "2026-10-23",
+      "time": "17:45",
+      "address": "Rua XV de Novembro, 2286",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a019",
+      "sellerId": "v002",
+      "clientId": "c020",
+      "clientName": "Conveniência Ipiranga",
+      "date": "2026-10-24",
+      "time": "10:30",
+      "address": "Rua São José, 5214",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a038",
+      "sellerId": "seller-1",
+      "clientId": "c033",
+      "clientName": "Larissa Martins",
+      "date": "2026-10-24",
+      "time": "15:30",
+      "address": "Rua do Comércio, 437",
+      "status": "Concluída",
+      "synced": true
+    },
+    {
+      "id": "a004",
+      "sellerId": "seller-1",
+      "clientId": "c036",
+      "clientName": "Maria Moreira",
+      "date": "2026-10-25",
+      "time": "08:30",
+      "address": "Av. Central, 724",
+      "status": "Agendada",
+      "synced": true
+    },
+    {
+      "id": "a003",
+      "sellerId": "v002",
+      "clientId": "c024",
+      "clientName": "Lanchonete Tradição",
+      "date": "2026-10-25",
+      "time": "14:45",
+      "address": "Av. Brasil, 8522",
+      "status": "Agendada",
+      "synced": true
+    }
+  ]
+}

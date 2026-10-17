@@ -1,0 +1,7 @@
+node_modules/
+firebase-debug.log
+firebase-debug.*.log
+.env
+.env.local
+# db.json INTENCIONALMENTE versionado: leva a base atual (seller-1/Rodrigo)
+# para o deploy gratuito no Render (disco efemero).
