@@ -22,7 +22,10 @@ const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
-const origins = allowedOrigins.length > 0 ? allowedOrigins : defaultOrigins;
+// União (defaults do app ∪ env ALLOWED_ORIGINS): uma env antiga/esquecida no
+// Render nunca mais consegue remover a origem do app da lista e derrubar o
+// CORS em producao (HTTP 0 no navegador).
+const origins = [...new Set([...defaultOrigins, ...allowedOrigins])];
 
 function isValidDateYYYYMMDD(v) {
   return typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v));
