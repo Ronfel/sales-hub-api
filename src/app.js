@@ -12,15 +12,20 @@ const {
 // Ex.: ALLOWED_ORIGINS="http://localhost:4200,https://app.seudominio.com.br"
 // A origem do app hospedado no Firebase Hosting (7salesforce) fica nas defaults
 // para funcionar mesmo sem a env setada no Render.
+// Normaliza origem p/ comparacao exata do CORS: sem espacos e sem "/" final.
+// O header `Origin` do navegador nunca tem barra final
+// ("https://7salesforce.web.app"), entao "https://7salesforce.web.app/"
+// (com barra, ex. copiada da URL) NUNCA daria match e causaria HTTP 0.
+const normalizeOrigin = (o) => String(o || "").trim().replace(/\/+$/, "");
 const defaultOrigins = [
   "http://localhost:4200",
   "https://7salesforce.web.app",
   "https://7salesforce.firebaseapp.com",
   "https://app.seudominio.com.br"
-];
+].map(normalizeOrigin).filter(Boolean);
 const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
   .split(",")
-  .map((s) => s.trim())
+  .map((s) => normalizeOrigin(s))
   .filter(Boolean);
 // União (defaults do app ∪ env ALLOWED_ORIGINS): uma env antiga/esquecida no
 // Render nunca mais consegue remover a origem do app da lista e derrubar o
