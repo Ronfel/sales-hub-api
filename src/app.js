@@ -27,6 +27,10 @@ function createApp() {
   app.use(cors({ origin: origins }));
   app.use(express.json({ limit: "2mb" }));
 
+  // Diagnóstico no boot: imprime no Log do Render quais origens o CORS aceita
+  // (se a lista estiver errada, o navegador responde HTTP 0 sem corpo).
+  console.log(`[cors] origens permitidas: ${origins.join(", ")}`);
+
   // Saude (fora do contrato do app; util p/ deploy/emulador).
   app.get("/", (req, res) => res.json({ ok: true, service: "sales-hub-api" }));
 

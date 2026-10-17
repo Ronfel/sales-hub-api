@@ -12,4 +12,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: ALLOWED_ORIGINS
-        sync: false
+        # CSV de origens liberadas para o CORS (navegador). Inclui o app no
+        # Firebase Hosting (7salesforce) + dev local. Sem esta lista, o app
+        # recebe HTTP 0 (bloqueio do navegador sem o header ACAO).
+        value: "http://localhost:4200,https://7salesforce.web.app,https://7salesforce.firebaseapp.com"
