@@ -8,7 +8,7 @@
 
 API canônica (hub/tradutor) que expõe os dados de força de vendas — clientes, produtos, tabelas de preço, condições de pagamento, pedidos e visitas — para o app de campo e para sistemas externos (Salesforce).
 
-- **Stack:** Node 20 + Express; deploy em Firebase Cloud Functions (região `southamerica-east1`), function única `api`.
+- **Stack:** Node 20 + Express; deploy em Render Web Service Free (plano gratuito, sem cartão) via `server.js`. Legado: Firebase Cloud Functions (região `southamerica-east1`), function única `api` — hoje exige plano Blaze com cartão.
 - **Padrão:** JSON sobre HTTPS, UTF-8, stateless (sem sessão nem cookies).
 - **Operações:** 3 `POST` (`/auth`, `/pull`, `/push`) + `GET /` de saúde.
 - **Modo atual:** MODO TESTE, persistindo em `db.json` com dados fictícios. Os marcadores `TODO(erp-real)` apontam o que será trocado por chamadas ao ERP real; **este contrato não muda** com essa troca.
@@ -18,9 +18,10 @@ API canônica (hub/tradutor) que expõe os dados de força de vendas — cliente
 | Ambiente | URL base |
 |---|---|
 | Local (dev) | `http://localhost:3000` |
-| Produção | `https://southamerica-east1-<SEU_PROJECT>.cloudfunctions.net/api` |
+| Produção (Render Free) | `https://SUA-URL.onrender.com` |
+| Produção antiga (Firebase, exige Blaze) | `https://southamerica-east1-<SEU_PROJECT>.cloudfunctions.net/api` |
 
-Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://southamerica-east1-multy.cloudfunctions.net/api/auth`).
+Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://sales-hub-api-xxxx.onrender.com/auth`).
 
 **Health check (monitoramento):** `GET /` → `200 {"ok":true,"service":"sales-hub-api"}`
 
@@ -52,10 +53,10 @@ Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://southamerica-east1-m
 
 **Credenciais de demonstração (ambiente test):**
 
-| login | senha | sellerId |
-|---|---|---|
-| `vendedor1` | `1234` | `v001` |
-| `vendedor2` | `1234` | `v002` |
+| login | senha | sellerId | nome |
+|---|---|---|---|
+| `vendedor1` | `1234` | `seller-1` | Rodrigo Neves (base atual `db.json` versionada p/ Render) |
+| `vendedor2` | `1234` | `v002` | Ana Souza |
 
 > Sempre confirme o `id` retornado pelo `/auth` e use-o como `sellerId` — não assuma o valor.
 
@@ -288,7 +289,7 @@ IDs são strings estáveis (`c001`, `p001`, `t1`, `p1`, `o053`, `a021`...).
 
 ### 8.1 Named Credential
 
-- Setup → Named Credential → **Nova**: URL base do ambiente (ex.: `https://...cloudfunctions.net/api`), autenticação **No Authentication** (a API não exige header hoje).
+- Setup → Named Credential → **Nova**: URL base do ambiente — dev: `http://localhost:3000`, prod Render: `https://SUA-URL.onrender.com` —, autenticação **No Authentication** (a API não exige header hoje).
 - Quando existir token Bearer: mudar para header `Authorization` — **nenhuma mudança nos corpos** das requisições.
 - CORS não precisa de tratativa: callout do Salesforce é servidor↔servidor e não envia `Origin`.
 

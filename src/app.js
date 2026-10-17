@@ -10,7 +10,14 @@ const {
 
 // Origens liberadas: localhost (dev) + producao via env ALLOWED_ORIGINS (csv).
 // Ex.: ALLOWED_ORIGINS="http://localhost:4200,https://app.seudominio.com.br"
-const defaultOrigins = ["http://localhost:4200", "https://app.seudominio.com.br"];
+// A origem do app hospedado no Firebase Hosting (7salesforce) fica nas defaults
+// para funcionar mesmo sem a env setada no Render.
+const defaultOrigins = [
+  "http://localhost:4200",
+  "https://7salesforce.web.app",
+  "https://7salesforce.firebaseapp.com",
+  "https://app.seudominio.com.br"
+];
 const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
   .split(",")
   .map((s) => s.trim())
