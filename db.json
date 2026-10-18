@@ -4236,7 +4236,7 @@
           "productName": "Sabão em Pó 800g",
           "quantity": 6,
           "unitPrice": 11.9,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         },
         {
@@ -4353,7 +4353,7 @@
           "productName": "Molho de Tomate 340g",
           "quantity": 9,
           "unitPrice": 3.99,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         },
         {
@@ -4423,7 +4423,7 @@
           "productName": "Açúcar Refinado 1kg",
           "quantity": 5,
           "unitPrice": 5.49,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0.27
         },
         {
@@ -4485,7 +4485,7 @@
           "productName": "Desinfetante 2L",
           "quantity": 8,
           "unitPrice": 8.9,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         },
         {
@@ -4509,7 +4509,7 @@
           "productName": "Feijão Carioca 1kg",
           "quantity": 2,
           "unitPrice": 8.49,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         }
       ],
@@ -4548,7 +4548,7 @@
           "productName": "Refrigerante Cola 2L",
           "quantity": 4,
           "unitPrice": 9.99,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         },
         {
@@ -4556,7 +4556,7 @@
           "productName": "Shampoo 350ml",
           "quantity": 15,
           "unitPrice": 14.9,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         }
       ],
@@ -4618,7 +4618,7 @@
           "productName": "Suco de Laranja 1L",
           "quantity": 5,
           "unitPrice": 7.49,
-          "neededDate": "2026-10-12",
+          "neededDate": "2026-10-18",
           "discount": 0
         },
         {
@@ -4720,7 +4720,7 @@
       "sellerName": "Ana Souza",
       "priceTableId": "t2",
       "paymentConditionId": "p1",
-      "createdAt": "2026-10-12",
+      "createdAt": "2026-10-18",
       "items": [
         {
           "productId": "p022",
@@ -4743,7 +4743,7 @@
       "sellerName": "Carlos Silva",
       "priceTableId": "t2",
       "paymentConditionId": "p3",
-      "createdAt": "2026-10-12",
+      "createdAt": "2026-10-18",
       "items": [
         {
           "productId": "p019",
@@ -4796,7 +4796,7 @@
       "sellerId": "v002",
       "clientId": "c045",
       "clientName": "Patrícia Dias",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "08:00",
       "address": "Travessa das Palmeiras, 1550",
       "status": "Agendada",
@@ -4807,7 +4807,7 @@
       "sellerId": "seller-1",
       "clientId": "c026",
       "clientName": "Empório Sabor & Cia",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "09:15",
       "address": "Rua do Comércio, 8790",
       "status": "Agendada",
@@ -4818,7 +4818,7 @@
       "sellerId": "seller-1",
       "clientId": "c027",
       "clientName": "Açougue Ipiranga",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "10:00",
       "address": "Rua São José, 31",
       "status": "Agendada",
@@ -4829,7 +4829,7 @@
       "sellerId": "seller-1",
       "clientId": "c047",
       "clientName": "Diego Barbosa",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "11:30",
       "address": "Rua XV de Novembro, 127",
       "status": "Concluída",
@@ -4840,7 +4840,7 @@
       "sellerId": "v002",
       "clientId": "c025",
       "clientName": "Restaurante Vila Nova",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "11:45",
       "address": "Av. Paulista, 5126",
       "status": "Agendada",
@@ -4851,7 +4851,7 @@
       "sellerId": "seller-1",
       "clientId": "c007",
       "clientName": "Açougue Central",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "14:00",
       "address": "Rua Projetada, 6079",
       "status": "Agendada",
@@ -4862,7 +4862,7 @@
       "sellerId": "v002",
       "clientId": "c025",
       "clientName": "Restaurante Vila Nova",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "15:15",
       "address": "Av. Paulista, 5126",
       "status": "Agendada",
@@ -4873,7 +4873,7 @@
       "sellerId": "seller-1",
       "clientId": "c012",
       "clientName": "Bar Vitória",
-      "date": "2026-10-12",
+      "date": "2026-10-18",
       "time": "17:30",
       "address": "Av. Paulista, 5582",
       "status": "Concluída",
