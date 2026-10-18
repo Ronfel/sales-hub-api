@@ -10,7 +10,7 @@ API canônica (hub/tradutor) que expõe os dados de força de vendas — cliente
 
 - **Stack:** Node 20 + Express; deploy em Render Web Service Free (plano gratuito, sem cartão) via `server.js`. Legado: Firebase Cloud Functions (região `southamerica-east1`), function única `api` — hoje exige plano Blaze com cartão.
 - **Padrão:** JSON sobre HTTPS, UTF-8, stateless (sem sessão nem cookies).
-- **Operações:** 3 `POST` (`/auth`, `/pull`, `/push`) + `GET /` de saúde.
+- **Operações:** `POST /auth`, `GET /pull?sellerId=...&data=YYYY-MM-DD`, `POST /push` + `GET /` de saúde. (`POST /pull` com corpo JSON mantido como alias depreciado p/ compatibilidade.)
 - **Modo atual:** MODO TESTE, persistindo em `db.json` com dados fictícios. Os marcadores `TODO(erp-real)` apontam o que será trocado por chamadas ao ERP real; **este contrato não muda** com essa troca.
 
 ## 2. Ambientes
@@ -29,8 +29,8 @@ Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://sales-hub-api-xxxx.o
 
 | Item | Regra |
 |---|---|
-| Método | `POST` nas 3 operações, corpo JSON |
-| Request header | `Content-Type: application/json` **obrigatório** — sem ele o corpo não é interpretado e a resposta é `400` |
+| Método | `POST /auth`, `GET /pull` (query params), `POST /push` com corpo JSON |
+| Request header | `Content-Type: application/json` **obrigatório no POST** — sem ele o corpo não é interpretado e a resposta é `400` |
 | Codificação | UTF-8 |
 | Datas | sempre `"YYYY-MM-DD"` (string); timestamp em ISO-8601 (`lastSyncedAt`) |
 | Tamanho máximo do corpo | 2 MB |
@@ -43,7 +43,7 @@ Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://sales-hub-api-xxxx.o
 
 ```
 1) POST /auth   { login, senha }           → 200 { seller: { id, ... } }
-2) POST /pull   { sellerId, data }         → 200 { snapshot }
+2) GET  /pull?sellerId=v001&data=YYYY-MM-DD → 200 { snapshot }
    POST /push   { sellerId, pedidos, ... } → 200 { ok, gravados }
 ```
 
@@ -80,12 +80,12 @@ Rotas = URL base + `/auth`, `/pull`, `/push` (ex.: `https://sales-hub-api-xxxx.o
 
 > A senha nunca é devolvida. O campo `email` existe na base mas **ainda não é exposto** nesta resposta (pendência — ver §10).
 
-### 5.2 POST /pull
+### 5.2 GET /pull
 
-**Request**
+**Request** — query params (sem corpo):
 
-```json
-{ "sellerId": "v001", "data": "2026-10-12" }
+```
+GET /pull?sellerId=v001&data=2026-10-12
 ```
 
 | Campo | Obrig | Descrição |
@@ -307,8 +307,9 @@ public with sharing class SalesHubClient {
     }
 
     public static Map<String, Object> pull(String sellerId, String data) {
-        // data = 'YYYY-MM-DD'
-        HttpResponse r = post('/pull', new Map<String, Object>{ 'sellerId' => sellerId, 'data' => data });
+        // data = 'YYYY-MM-DD' — leitura: GET com query params (sem corpo)
+        HttpResponse r = get('/pull?sellerId=' + EncodingUtil.urlEncode(sellerId, 'UTF-8')
+            + '&data=' + EncodingUtil.urlEncode(data, 'UTF-8'));
         Map<String, Object> root = (Map<String, Object>) JSON.deserializeUntyped(r.getBody());
         return (Map<String, Object>) root.get('snapshot');
     }
@@ -320,6 +321,18 @@ public with sharing class SalesHubClient {
             'visitasConcluidas' => visitas
         });
         return (Map<String, Object>) JSON.deserializeUntyped(r.getBody()); // { ok, gravados }
+    }
+
+    private static HttpResponse get(String pathWithQuery) {
+        HttpRequest req = new HttpRequest();
+        req.setEndpoint(BASE + pathWithQuery);
+        req.setMethod('GET');
+        req.setTimeout(30000);
+        HttpResponse res = new Http().send(req);
+        if (res.getStatusCode() >= 300) { // corpo sempre { "message": "..." }
+            throw new CalloutException('sales-hub-api ' + res.getStatusCode() + ': ' + res.getBody());
+        }
+        return res;
     }
 
     private static HttpResponse post(String path, Object body) {
@@ -372,7 +385,7 @@ PowerShell — mesmos do `README.md`:
 
 ```powershell
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/auth -ContentType "application/json" -Body '{"login":"vendedor1","senha":"1234"}'
-Invoke-RestMethod -Method Post -Uri http://localhost:3000/pull -ContentType "application/json" -Body '{"sellerId":"v001","data":"2026-10-12"}'
+Invoke-RestMethod -Method Get -Uri "http://localhost:3000/pull?sellerId=v001&data=2026-10-12"
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/push -ContentType "application/json" -Body '{"sellerId":"v001","pedidos":[{"id":"ped-teste-001","clientId":"c001","createdAt":"2026-10-12","items":[{"productId":"p001","quantity":2,"unitPrice":19.9}]}],"visitasConcluidas":[{"id":"a-teste-001","clientId":"c001","date":"2026-10-12"}]}'
 ```
 
@@ -380,7 +393,7 @@ cURL:
 
 ```bash
 curl -X POST http://localhost:3000/auth -H "Content-Type: application/json" -d '{"login":"vendedor1","senha":"1234"}'
-curl -X POST http://localhost:3000/pull -H "Content-Type: application/json" -d '{"sellerId":"v001","data":"2026-10-12"}'
+curl "http://localhost:3000/pull?sellerId=v001&data=2026-10-12"
 curl -X POST http://localhost:3000/push -H "Content-Type: application/json" -d '{"sellerId":"v001","pedidos":[{"id":"ped-teste-001","clientId":"c001","createdAt":"2026-10-12","items":[{"productId":"p001","quantity":2,"unitPrice":19.9}]}],"visitasConcluidas":[{"id":"a-teste-001","clientId":"c001","date":"2026-10-12"}]}'
 ```
 

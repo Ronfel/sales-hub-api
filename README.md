@@ -6,7 +6,7 @@ Stack: Node 20 + Express + CORS. Deploy: Firebase Cloud Functions
 ## Endpoints (JSON; datas em "YYYY-MM-DD")
 
 - `POST /auth` → `{ login, senha }` → `{ seller: { id, empresa, login, nome } }` | 401 `{ message: "Credenciais inválidas" }`
-- `POST /pull` → `{ sellerId, data }` → `{ snapshot: SalesSnapshot }`
+- `GET /pull?sellerId=v001&data=YYYY-MM-DD` → `{ snapshot: SalesSnapshot }` (POST /pull com corpo `{ sellerId, data }` mantido como alias depreciado)
 - `POST /push` → `{ sellerId, pedidos, visitasConcluidas }` → `{ ok: true, gravados: { pedidos, visitas } }`
 
 Erros: sempre JSON `{ message }` (400/401/404/500). Sem stack em produção.
@@ -29,7 +29,7 @@ Teste rápido (PowerShell):
 
 ```powershell
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/auth -ContentType "application/json" -Body '{"login":"vendedor1","senha":"1234"}'
-Invoke-RestMethod -Method Post -Uri http://localhost:3000/pull -ContentType "application/json" -Body '{"sellerId":"v001","data":"2026-10-12"}'
+Invoke-RestMethod -Method Get -Uri "http://localhost:3000/pull?sellerId=v001&data=2026-10-12"
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/push -ContentType "application/json" -Body '{"sellerId":"v001","pedidos":[{"id":"ped-teste-001","clientId":"c001","createdAt":"2026-10-12","items":[{"productId":"p001","quantity":2,"unitPrice":19.9}]}],"visitasConcluidas":[{"id":"a-teste-001","clientId":"c001","date":"2026-10-12"}]}'
 ```
 

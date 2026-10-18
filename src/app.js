@@ -63,9 +63,13 @@ function createApp() {
     return res.json({ seller: toPublicSeller(seller) }); // NUNCA devolve senha
   });
 
-  // ---------------------------------------------------------- 2) POST /pull
-  app.post("/pull", (req, res) => {
-    const { sellerId, data } = req.body || {};
+  // ---------------------------------------------------------- 2) GET /pull
+  // Leitura idempotente (snapshot da carteira): método correto é GET com query params.
+  // Ex.: GET /pull?sellerId=v001&data=2026-10-12
+  // Mantido POST /pull como alias depreciado p/ compatibilidade com clientes antigos.
+  function handlePull(req, res) {
+    const sellerId = (req.query && req.query.sellerId) || (req.body && req.body.sellerId);
+    const data = (req.query && req.query.data) || (req.body && req.body.data);
     if (!sellerId) {
       return res.status(400).json({ message: "Informe sellerId." });
     }
@@ -78,7 +82,11 @@ function createApp() {
     // TODO(erp-real): filtrar no ERP por sellerId (carteira) e data.
     const snapshot = erpGetSnapshot(String(sellerId), String(data));
     return res.json({ snapshot });
-  });
+  }
+  app.get("/pull", handlePull);
+  // Alias depreciado: aceita POST p/ não quebrar clientes antigos (Salesforce/app).
+  // Novos clientes devem usar GET /pull?sellerId=...&data=YYYY-MM-DD.
+  app.post("/pull", handlePull);
 
   // ---------------------------------------------------------- 3) POST /push
   app.post("/push", (req, res) => {
